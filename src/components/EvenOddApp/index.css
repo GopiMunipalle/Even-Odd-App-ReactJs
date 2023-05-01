@@ -1,0 +1,54 @@
+/* Write your CSS here */
+@media screen and (min-width: 768px) and (max-width: 2200px) {
+  .bg-container {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    background-image: linear-gradient(to top, #bfe9ff, #ff6e7f);
+    font-family: Roboto;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    padding: 10px;
+    border: solid 1.5px #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 576px) {
+  .bg-container {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .container {
+    background-image: linear-gradient(to top, #bfe9ff, #ff6e7f);
+    font-family: Roboto;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .button {
+    padding: 10px;
+    border: solid 1.5px #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
